@@ -1,10 +1,10 @@
 {
-	"id": "telegram-notifier-mvp",
-	"name": "Telegram Notifier (Custom)",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Custom notification engine with presets and inline fields support.",
-	"author": "User & AI",
-	"authorUrl": "https://github.com/yourname",
-	"isDesktopOnly": false
+  "id": "obsidian-telegram-notifier",
+  "name": "Telegram Notifier",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Simple Telegram reminder plugin with presets, inline tasks and working hours.",
+  "author": "ADEMSU",
+  "authorUrl": "https://github.com/ADEMSU",
+  "isDesktopOnly": false
 }
