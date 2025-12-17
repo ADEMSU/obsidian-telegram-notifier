@@ -1,0 +1,35 @@
+{
+  "botToken": "8221017301:AAHmRY6DPfL3_sH8Mt2kma0XaxRhVxkXEjA",
+  "chatId": "225494502",
+  "checkIntervalMinutes": 1,
+  "timezoneOffset": 3,
+  "startHour": 9,
+  "endHour": 21,
+  "defaultReviewTemplate": "📅 Напоминание: {filename}\nПора обдумать проект",
+  "defaultInlineTemplate": "✅ Проверь исполение: {task}\nИз заметки: {filename}",
+  "allowedFieldsSingle": "priority, type",
+  "allowedFieldsPreset": "payment_sum, client, project_link",
+  "presets": [
+    {
+      "name": "finance",
+      "offsets": [
+        "-7d",
+        "0m",
+        "+1d"
+      ]
+    },
+    {
+      "name": "project",
+      "offsets": [
+        "-1d",
+        "0m"
+      ]
+    }
+  ],
+  "sentHistory": {
+    "Без названия.md::review::1765973040000": 1765973096711,
+    "Без названия.md::preset_finance_-7d::1765314000000": 1765973908418,
+    "Без названия.md::preset_finance_0m::1765918800000": 1765973908418
+  },
+  "allowedFields": "payment_sum, priority, due_date"
+}
