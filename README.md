@@ -27,43 +27,17 @@ A simple and useful plugin for Obsidian that sends notifications to your Telegra
 
 ## Configuration
 
-### 1. Telegram Setup
+### Telegram Setup
 1. Create a bot via [@BotFather](https://t.me/BotFather) on Telegram to get your **Bot Token**.
 2. Find your **Chat ID** by sending a message to a bot like [@userinfobot](https://t.me/userinfobot).
 3. Enter these credentials in the plugin settings within Obsidian.
 4. Click the **Send Test Message** button to verify the connection.
 
-### 2. Usage Examples
-
-#### A. Single Reminder
-Add this to the top of your note (YAML Frontmatter):
----
-review_date: 2025-12-20 14:00
-priority: High
----
-
-#### B. Recurring Reminder (Preset)
-First, configure a preset named `finance` in the plugin settings. Then, use it in a note:
----
-due_date: 2025-12-25
-reminder_preset: finance
-payment_sum: 500$
----
-
-#### C. Inline Task
-Write this anywhere in your note:
----
- - [ ] Submit report [check:: 2025-12-20 10:00]
----
-
 ## Field naming and compatibility
-
 This plugin is designed to work together with Dataview and Metadata Menu.
 
 ### Fields used by the plugin
-
 The plugin relies on the following metadata fields:
-
 - YAML frontmatter:
   - `review_date` – single reminder date/time for the whole note.
   - `due_date` – base date for recurring reminders.
@@ -77,9 +51,7 @@ The plugin relies on the following metadata fields:
 All of these use standard YAML and Dataview-style inline syntax and can be safely queried from Dataview or managed via Metadata Menu.
 
 ### Recommended custom field names
-
 You are free to define any additional fields in the plugin settings, for example:
-
 - `payment_sum`
 - `client`
 - `project_link`
@@ -87,14 +59,11 @@ You are free to define any additional fields in the plugin settings, for example
 - `type`
 
 These fields will be:
-
 - Inserted automatically into generated YAML snippets.
 - Available for use in message templates as `{payment_sum}`, `{client}`, etc.
 
 ### Names to avoid
-
 To reduce the risk of edge cases with Dataview, it is recommended **not** to use the following words as field names in your custom configuration:
-
 - `where`
 - `group`
 - `position`
@@ -107,7 +76,6 @@ If you follow these guidelines, the plugin should remain compatible with Datavie
 
 
 ## Development
-
 1. Clone this repository.
 2. Run `npm install` to install dependencies.
 3. Run `npm run dev` to start compilation in watch mode.
