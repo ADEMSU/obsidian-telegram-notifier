@@ -1,8 +1,8 @@
 {
   "botToken": "8221017301:AAHmRY6DPfL3_sH8Mt2kma0XaxRhVxkXEjA",
   "chatId": "225494502",
-  "checkIntervalMinutes": 1,
-  "timezoneOffset": 3,
+  "checkIntervalMinutes": 30,
+  "timezoneOffset": 0,
   "startHour": 9,
   "endHour": 21,
   "defaultReviewTemplate": "📅 Напоминание: {filename}\nПора обдумать проект",
@@ -29,7 +29,12 @@
   "sentHistory": {
     "Без названия.md::review::1765973040000": 1765973096711,
     "Без названия.md::preset_finance_-7d::1765314000000": 1765973908418,
-    "Без названия.md::preset_finance_0m::1765918800000": 1765973908418
+    "Без названия.md::preset_finance_0m::1765918800000": 1765973908418,
+    "Без названия.md::review::1765993140000": 1765993176268,
+    "Без названия.md::inline_line_0::1765993260000": 1765993296264,
+    "Без названия.md::inline_line_3::1765993260000": 1765993356258,
+    "Без названия.md::review::1765993320000": 1765993416257,
+    "Без названия.md::inline_line_8::1765993260000": 1765993416257
   },
   "allowedFields": "payment_sum, priority, due_date"
 }
